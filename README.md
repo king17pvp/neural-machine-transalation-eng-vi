@@ -22,3 +22,19 @@ The model dimension is 512, position-wise feed forwarding dimension is 2048 and 
 <p align="center">
    <em>Transformer architecture (source: https://arxiv.org/pdf/1706.03762.pdf)</em>
 </p>
+
+## Dataset
+
+## Training
+
+I use Adam optimizer, with the initial learning rate = 1e-4
+
+## Result
+
+
+
+## Reference
+* https://github.com/bentrevett/pytorch-seq2seq/
+* https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html
+* https://arxiv.org/pdf/1706.03762.pdf
+* https://www.youtube.com/watch?v=U0s0f995w14
