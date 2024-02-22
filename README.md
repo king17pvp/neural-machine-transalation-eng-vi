@@ -32,7 +32,7 @@ Link: https://huggingface.co/datasets/mt_eng_vietnamese
 ## Training
 
 I used Adam optimizer, with the initial learning rate = 1e-4
-And trained on 10 epoches, using batch size of 16  
+The model was trained on 10 epoches, using batch size of 16  
 
 ## Result
 
@@ -40,6 +40,11 @@ The results on evaluation set (test set) after running on 10 epoches:
 * Loss: 2.175
 * BLEU score: 26.404
 
+## Future work (as of 22/2/2024)
+
+* Will make this usable for github users :D 
+* Will upload the model onto huggingface
+  
 ## Reference
 * https://github.com/bentrevett/pytorch-seq2seq/
 * https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html
