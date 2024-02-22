@@ -37,8 +37,11 @@ The model was trained on 10 epoches, using batch size of 16
 ## Result
 
 The results on evaluation set (test set) after running on 10 epoches:
+
 * Loss: 2.175
 * BLEU score: 26.404
+
+You can see the result at the end of the transformer notebook
 
 ## Future work (as of 22/2/2024)
 
