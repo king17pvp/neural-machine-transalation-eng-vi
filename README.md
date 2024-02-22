@@ -1,6 +1,8 @@
 # neural-machine-transalation-eng-vi
 A simple Neural Machine Translation model using Transformer architecture to translate from English to Vietnamese
 
+All of this was implemented on Kaggle cloud for the support of GPU T4 x 2 
+
 ## Model architecture
 
 This is using a simple Transformer Architecture with 6 encoder blocks, 6 decoder blocks. All of which uses Multi-head attention mechanism with scaled-dot product with 8 attention heads.
@@ -24,14 +26,19 @@ The model dimension is 512, position-wise feed forwarding dimension is 2048 and 
 </p>
 
 ## Dataset
+I use the Preprocessed Dataset from IWSLT'15 English-Vietnamese machine translation: English-Vietnamese.
+Link: https://huggingface.co/datasets/mt_eng_vietnamese
 
 ## Training
 
 I use Adam optimizer, with the initial learning rate = 1e-4
+And trained on 10 epoches, using batch size of 16  
 
 ## Result
 
-
+The results on evaluation set (test set) after running on 10 epoches:
+* Loss: 2.175
+* BLEU score: 26.404
 
 ## Reference
 * https://github.com/bentrevett/pytorch-seq2seq/
