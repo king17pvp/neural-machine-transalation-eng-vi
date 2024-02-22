@@ -5,6 +5,14 @@ A simple Neural Machine Translation model using Transformer architecture to tran
 
 This is using a simple Transformer Architecture with 6 encoder blocks, 6 decoder blocks. All of which uses Multi-head attention mechanism with scaled-dot product with 8 attention heads.
 
+<p align="center">
+  <img src="scaled_dot_product_and_multi_head_attention.png" alt = "UI" title = "Scaled dot product (source: https://arxiv.org/pdf/1706.03762.pdf)" width="500" height="270">
+</p>
+
+<p align="center">
+   <em>Visualization of scaled dot-product and multi-head attention mechanism (source: https://arxiv.org/pdf/1706.03762.pdf)</em>
+</p>
+
 The model dimension is 512, position-wise feed forwarding dimension is 2048 and some dropout layers with the drop rate of 0.1.
 
 <p align="center">
