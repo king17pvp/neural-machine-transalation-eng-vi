@@ -1,7 +1,7 @@
 # neural-machine-transalation-eng-vi
 A simple Neural Machine Translation model using Transformer architecture to translate from English to Vietnamese
 
-All of this was implemented on Kaggle cloud for the support of GPU T4 x 2 
+All of this was implemented on Kaggle website for the support of GPU T4 x 2 
 
 ## Model architecture
 
@@ -31,7 +31,7 @@ Link: https://huggingface.co/datasets/mt_eng_vietnamese
 
 ## Training
 
-I use Adam optimizer, with the initial learning rate = 1e-4
+I used Adam optimizer, with the initial learning rate = 1e-4
 And trained on 10 epoches, using batch size of 16  
 
 ## Result
